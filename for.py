@@ -141,3 +141,100 @@
 #     s = s+a
 # print(s)
 
+# 31
+# def sonlar(n):
+#     if n==0:
+#         return 2
+#     else:
+#         return 2+1/sonlar(n-1)
+    
+# print(sonlar(n = int(input())))
+
+
+# 32
+# def sonlar(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return (sonlar(n-1)+1)/n
+    
+# print(sonlar(n = int(input())))
+#f(1) = 2
+# f(2) = 1,5
+# f(3) = 0,8
+
+
+
+# 33
+# def fibonachi(n):
+#     if n==1:
+#         return 1
+#     elif n==2:
+#         return 1
+#     else:
+#         return (fibonachi(n-2)+fibonachi(n-1))
+    
+# print(fibonachi(n = int(input())))
+
+
+# 34
+# def sonlar(n):
+#     if n==1:
+#         return 1
+#     elif n==2:
+#         return 1
+#     else:
+#        return (sonlar(n-2)+2*sonlar(n-1))/3
+    
+# print(sonlar(n = int(input()))) 
+ 
+
+# 35
+# def sonlar(n):
+#     if n==1:
+#         return 1
+#     elif n==2:
+#         return 1
+#     elif n==3:
+#         return 1
+#     else:
+#        return sonlar(n-1)+sonlar(n-2)-2*(sonlar(n-3))
+    
+# print(sonlar(n = int(input()))) 
+
+
+# 36
+# n = int(input())
+# k = int(input())
+# s = 0
+# for i in range(n):
+#     result = i**k
+#     s+=result
+# print(s)
+
+
+# 37
+# n = int(input())
+# s = 0
+# for i in range(1,n+1):
+#     result = i**i
+#     s+=result
+# print(s)
+
+
+
+# 38
+# n = int(input())
+# s = 0 
+# for i in range(1,n+1):
+#     result = i**(n-i+1)
+#     s+=result
+# print(s)
+
+
+
+# 39
+# a = int(input())
+# for i in range(1,a+1):
+#     for k in range(i):
+#         print(i)
